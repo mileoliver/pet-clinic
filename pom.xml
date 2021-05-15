@@ -41,9 +41,6 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                         <goals>install</goals>
-                    <checkModificationExcludes>
-                        <checkModificationExclude>pom.xml</checkModificationExclude>
-                    </checkModificationExcludes>
                 </configuration>
             </plugin>
         </plugins>
