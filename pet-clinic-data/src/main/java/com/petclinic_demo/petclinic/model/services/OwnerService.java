@@ -1,6 +1,6 @@
-package services;
+package com.petclinic_demo.petclinic.model.services;
 
-import model.Owner;
+import com.petclinic_demo.petclinic.model.Owner;
 
 public interface OwnerService extends CrudService<Owner, Long> {
 
