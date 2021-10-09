@@ -7,6 +7,8 @@ import com.petclinic_demo.petclinic.model.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import java.nio.charset.Charset;
+
 @Component
 public class DataLoader implements CommandLineRunner {
 
@@ -47,6 +49,6 @@ public class DataLoader implements CommandLineRunner {
         vetService.save(vet2);
 
         System.out.println("Vets ok");
-
+        System.out.println(Charset.defaultCharset().displayName());
     }
 }
